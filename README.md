@@ -40,6 +40,13 @@ This is a simple clicker game developed with two other student programmers. The 
 
 ---
 
+## Links
+
+- 🌐 **Live Portfolio Website:** [qqdevloper.github.io/Wesley-Wu-Project-Portfolio](https://qqdevloper.github.io/Wesley-Wu-Project-Portfolio/#contact)  
+- 💻 **GitHub Repository:** [github.com/qqdevloper/Wesley-Wu-Project-Portfolio](https://github.com/qqdevloper/Wesley-Wu-Project-Portfolio/tree/main)
+
+---
+
 ## Contact
 
 📧 Email: 12179@husd.k12.ca.us
