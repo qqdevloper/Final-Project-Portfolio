@@ -44,6 +44,7 @@ This is a simple clicker game developed with two other student programmers. The 
 
 Visit my portfolio website:
 - 🌐 **Live Portfolio Website:** [qqdevloper.github.io/Wesley-Wu-Project-Portfolio](https://qqdevloper.github.io/Wesley-Wu-Project-Portfolio/#contact)
+
 Visit the Github respository:
 - 💻 **GitHub Repository:** [github.com/qqdevloper/Wesley-Wu-Project-Portfolio](https://github.com/qqdevloper/Wesley-Wu-Project-Portfolio/tree/main)
 
