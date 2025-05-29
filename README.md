@@ -10,6 +10,7 @@ During my coursework, I've learned the fundamentals of programming in C++ and Ja
 - Function initialization
 - Boolean logic (true/false conditions)
 - Conditional statements
+- How are computer cookies are made
 
 In addition to coding, we've explored foundational internet structures, though the main focus has been programming.
 
