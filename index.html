@@ -1,11 +1,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device=width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>My portfolio</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
   <style>
+    .tabs a {
+      color: #FFFFFF
+    }
+    #about_Me {
+      background-color: #B75D69;
+      max-width: 400px;
+      border: 1px solid black;
+      margin: 40px auto;
+    }
     .tabs {
       position: fixed;
       top: 0;
@@ -25,21 +34,33 @@
       border-bottom: 2 px;
     }
     body {
-      padding-top: 60px;
+      padding-top: 40px;
       text-align: center;
       margin: 0px;
       background: #D7B49E;
-    }
-    h1 {
-      text-align: center;
+      align-content: center;
     }
     p {
       align-items: center;
-      max-width: 800px;
+      max-width: 400px;
       margin: 0 auto;
+      line-height: 1.5;
+      font-family: "Times New Roman", Times, serif;
     }
     h1, h2, h3 {
       text-align: center;
+      padding-top: 60px;
+      margin: 40px auto;
+      text-decoration: underline;
+    }
+    #cookie_clicker, #calculator, #tic_tac_toe, #contact {
+      background: #B75D69;
+      max-width: 400px;
+      border: solid black 1px;
+      margin: 40px auto
+    }
+    #program_Gallery a {
+      color: #F4D35E;
     }
   </style>
 </head>
@@ -52,13 +73,17 @@
     <div id="about_Me">
     <h1>About Me</h1>
     <p>Hello,</p>
+    <br>
     <p>my name is Wesley Wu,</p>
+    <br>
     <p>I'm a student programmer in Computer Science, and I made programs with the help of other student programmers. I'm the one to lead in design and conceptualizing a idea into a program, and then code the feature into the program with the others.</p>
-     <p>In my time in the class, I've learned the fundamentals of coding in C++ and JavaScript. Fundamentals like loops, initializing a function, setting function between true or false, conditional function, and how are computer cookies are made. The class also delved to other structures that make the internet, but it's mainly about coding.</p>
+<br>     
+<p>In my time in the class, I've learned the fundamentals of coding in C++ and JavaScript. Fundamentals like loops, initializing a function, setting function between true or false, conditional function, and how are computer cookies are made. The class also delved to other structures that make the internet, but it's mainly about coding.</p>
     </div>
     <br>
     <div id="program_Gallery">
     <h2>The Program Gallery</h2>
+    <div id="tic_tac_toe">
     <h3>Tic-tac-Toe</h3>
     <img src="tic_tac_toe.png" alt="Tic Tac Toe Preview"></img>
     <br>
@@ -67,6 +92,8 @@
     <p>Description:</p>
     <br>
     <p>This is a Tic-Tac-Toe game program that I and one of the student programmer made. It works like a tic-tac-toe game, you need to match 3 of your shapes to win.</p>
+    </div>
+    <div id="calculator">
     <h3>Calculator</h3>
     <img src="calculator.png" alt="Calculaor Preview"></img>
     <br>
@@ -75,6 +102,8 @@
     <p>Description:</p>
     <br>
     <p>This is a calculator program that I and one of the student coder made. It's an basic calculator that every calculator has. It has '+, '-', '*', and '/', it also has a pi number in it that can be used to calculate.</p>
+    </div>
+    <div id="cookie_clicker">
     <h3>Cookie Clicker</h3>
     <img src="cookie-clicker-preview.png" alt="Cookie Clicker Preview"></img>
     <br>
@@ -83,9 +112,10 @@
     <p>Description:</p>
     <br>
     <p>It's an cookie clicker program, that I and 2 other student programmers made. It's a clicker game, but it emphasize on manual clicking, restocking the cookie to progress, and there are no structures that automatically generate cookies.</p>
-    </div>    
-  </body>
-  <div id="contact">
+    </div>  
+    </div>
+ <div id="contact">
 <h4>Contacts:</h4>
 <p>12179@husd.k12.ca.us</p>
   </div>
+  </body>
